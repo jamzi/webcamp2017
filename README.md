@@ -16,5 +16,5 @@
  - If you don't have Ionic CLI installed: `npm install -g ionic`
  - Change directory: `cd webcamp2017`
  - Install NPM packages: `npm install` 
- - ionic serve 
- - ionic upload (you must login with Ionic account first)
+ - Serve application: `ionic serve`
+ - Upload to Ionic View: `ionic upload` (you must login with Ionic account first)
