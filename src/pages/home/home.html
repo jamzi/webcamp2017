@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Webcamp 2017
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <div class="home-header">
+    <img [src]="currentUser.photoURL" alt="ionic logo">
+    <h4>Hello: {{ currentUser.email }}</h4>
+  </div>
+
+  <button ion-button (click)="onTakeAndUploadPicture()" type="submit" block>Upload a picture</button>
+  <button ion-button (click)="onLogout()" type="submit" color="light" block>Logout</button>
+</ion-content>
